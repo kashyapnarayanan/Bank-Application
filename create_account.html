@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>axis bank create account</title>
+    <link rel="stylesheet" href="asset/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <script>
+        function submitform()
+        {
+            alert("Account creation initiated successfully");
+        }
+    </script>
+</head>
+<body>
+    <div class="container-fluid bg-dark">
+        <h1 class="head">AXIS BANK</h1>
+    </div>
+    <div class="container-fluid menu-bar">
+        <ul class="d-flex list-unstyled ">
+            <li><a href="home.html" >Home</a></li>
+            <li class="active"><a href="#" >Customer Management</a>
+            <div class="sub-menu-1">
+                <ul>
+                    <li><a href="create_customer.html"> Create Customer </a></li>
+                    <li><a href="update_customer.html">Update Customer </a></li>
+                    <li><a href="delete_customer.html"> Delete Customer </a></li>
+                </ul>
+            </div>
+            </li>
+            <li><a href="#" >Account Management</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="create_account.html"> Create Account </a></li>
+                        <li><a href="#"> Delete Account </a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"> Status Details</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#"> View Customer Status </a></li>
+                        <li><a href="#">View Account Status </a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"> Account Operations</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#"> Accounts and Account Details </a></li>
+                        <li><a href="#">Deposit </a></li>
+                        <li><a href="#">Withdraw </a></li>
+                        <li><a href="#">Transfer </a></li>
+                        <li><a href="#">Deposit </a></li>
+                        <li><a href="#">Get Statement</a></li>
+    
+    
+                    </ul>
+                </div>
+            </li>
+            <li >
+                <a href="#"  >Logout</a> 
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row d-flex"> 
+            <form class="form_feild text-center justify-content-center ">
+                <h3>Create Account</h3>
+            
+           <div class="form-group "><input class="user2" type="text" placeholder="Customer SSN ID:"></div>
+           <div class="form-group ">
+            <select class="form-control" >
+                <option value="" selected>Account Type:</option>
+                <option value="savings">Savings </option>
+              <option value="current">Current</option>
+            </select>
+           </div>
+           <div class="form-group "><input class="user2" type="text" placeholder="Deposit Amount:"></div>
+           <button class="btn btn-outline-success" type="submit" onclick="submitform()">Submit </button>
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>s
